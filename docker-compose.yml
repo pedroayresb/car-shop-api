@@ -15,6 +15,7 @@ services:
     stdin_open: true
     # Substitui o comando padrão da imagem do node
     command: bash
+    user: node
     # Restarta a imagem caso algo a faça parar
     restart: always
     # Diretório padrão de execução
