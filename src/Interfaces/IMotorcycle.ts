@@ -2,7 +2,7 @@ interface Motorcycle {
   model: string;
   year: number;
   color: string;
-  status: boolean;
+  status?: boolean | undefined;
   buyValue: number;
   category: string;
   engineCapacity: number;
