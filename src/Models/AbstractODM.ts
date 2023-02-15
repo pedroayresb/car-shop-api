@@ -34,6 +34,10 @@ abstract class AbstractODM<T> {
     });
     return updateVehicle;
   }
+
+  public async deleteById(id: string): Promise<T | null> {
+    return this.model.findByIdAndDelete(id);
+  }
 }
 
 export default AbstractODM;
