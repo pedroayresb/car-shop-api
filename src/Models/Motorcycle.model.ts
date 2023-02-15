@@ -19,7 +19,8 @@ class MotorcycleODM extends AbstractODM<IMotorcycle> {
       },
       status: {
         type: Boolean,
-        required: true,
+        required: false,
+        default: false,
       },
       buyValue: {
         type: Number,

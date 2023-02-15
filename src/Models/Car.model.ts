@@ -19,7 +19,8 @@ class CarODM extends AbstractODM<ICar> {
       },
       status: {
         type: Boolean,
-        required: true,
+        required: false,
+        default: false,
       },
       buyValue: {
         type: Number,
