@@ -1,9 +1,9 @@
-import Automobile from './Automobile';
+import Automobile from './Vehicle';
 import IMotorcycle from '../Interfaces/IMotorcycle';
 
 export default class Motorcycle extends Automobile {
-  protected category: string;
-  protected engineCapacity: number;
+  private category: string;
+  private engineCapacity: number;
 
   constructor(motorcycle: IMotorcycle) {
     super(motorcycle);

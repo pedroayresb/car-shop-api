@@ -7,8 +7,8 @@ export default class CarDomain {
   protected color: string;
   protected status?: boolean | undefined;
   protected buyValue: number;
-  protected doorsQty: number;
-  protected seatsQty: number;
+  private doorsQty: number;
+  private seatsQty: number;
 
   constructor(car: ICar) {
     this.id = car.id;
