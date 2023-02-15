@@ -1,5 +1,5 @@
 import Automobile from './Automobile';
-import { IMotorcycle } from '../Interfaces/IMotorcycle';
+import IMotorcycle from '../Interfaces/IMotorcycle';
 
 export default class Motorcycle extends Automobile {
   protected category: string;

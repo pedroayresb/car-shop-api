@@ -1,7 +1,7 @@
 import { isValidObjectId } from 'mongoose';
 import Car from '../Domains/Car';
 import CarODM from '../Models/Car.model';
-import { ICars } from '../Interfaces/ICar';
+import ICar from '../Interfaces/ICar';
 
 const INVALID_ERROR = 'Invalid mongo id';
 const NOT_FOUND_ERROR = 'Car not found';
@@ -13,7 +13,7 @@ class CarService {
     this.carODM = odm;
   }
 
-  public async create(car: ICars): Promise<Car> {
+  public async create(car: ICar): Promise<Car> {
     const newCar = await this.carODM.create(car);
     return new Car(newCar);
   }
@@ -34,7 +34,7 @@ class CarService {
     return new Car(car);
   }
 
-  public async updateById(id: string, car: Partial<ICars>): Promise<Car | null> {
+  public async updateById(id: string, car: Partial<ICar>): Promise<Car | null> {
     if (!isValidObjectId(id)) {
       throw new Error(INVALID_ERROR);
     }

@@ -1,7 +1,7 @@
 import { isValidObjectId } from 'mongoose';
 import Motorcycle from '../Domains/Motorcycle';
 import MotorcycleODM from '../Models/Motorcycle.model';
-import { IMotorcycle } from '../Interfaces/IMotorcycle';
+import IMotorcycle from '../Interfaces/IMotorcycle';
 
 const INVALID_ERROR = 'Invalid mongo id';
 const NOT_FOUND_ERROR = 'Motorcycle not found';

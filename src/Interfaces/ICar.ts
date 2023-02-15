@@ -8,8 +8,8 @@ interface Car {
   seatsQty: number;
 }
 
-interface ICars extends Car {
+interface ICar extends Car {
   id?: string;
 }
-
-export { Car, ICars };
+export { Car };
+export default ICar;

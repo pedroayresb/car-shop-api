@@ -11,5 +11,5 @@ interface Motorcycle {
 interface IMotorcycle extends Motorcycle {
   id?: string;
 }
-
-export { Motorcycle, IMotorcycle };
+export { Motorcycle };
+export default IMotorcycle;
