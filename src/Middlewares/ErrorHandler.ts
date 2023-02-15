@@ -12,10 +12,8 @@ class ErrorHandler {
     }
     if (error.message === 'Car not found' || error.message === 'Motorcycle not found') {
       res.status(404).json({ message: error.message });
-    } else {
-      res.status(500).json({ message: error.message });
     }
-
+  
     next();
   }
 }
