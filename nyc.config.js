@@ -5,6 +5,10 @@ module.exports = {
     "src/Services",
     "src/Controllers"
   ],
+  "exclude": [
+    "src/Models/AbstractODM.ts",
+    "src/Models/Connection.ts",
+  ],
   "reporter": [
     "text",
     "text-summary",
