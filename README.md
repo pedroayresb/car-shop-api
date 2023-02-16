@@ -142,14 +142,14 @@ status: 200
      "seatsQty": 5
    }
 ```
-##### Exemplo de resposta de erro (Email ou senha incorretos):
+##### Exemplo de resposta de erro (veiculo nao existe no banco):
 ```json
 status: 404
 {
    "message": "Car not found" 
 }
 ```
-##### Exemplo de resposta de erro (Todos os campos devem estar preenchidos):
+##### Exemplo de resposta de erro (Id Mongo Invalido):
 ```json
 status: 422
 {
@@ -194,14 +194,14 @@ status: 200
 	  "seatsQty": 5
    }
 ```
-##### Exemplo de resposta de erro (Email ou senha incorretos):
+##### Exemplo de resposta de erro (veiculo nao existe no banco):
 ```json
 status: 404
 {
    "message": "Car not found" 
 }
 ```
-##### Exemplo de resposta de erro (Todos os campos devem estar preenchidos):
+##### Exemplo de resposta de erro (Id Mongo Invalido):
 ```json
 status: 422
 {
@@ -234,14 +234,14 @@ status: 200
 	  "seatsQty": 5
    }
 ```
-##### Exemplo de resposta de erro (Email ou senha incorretos):
+##### Exemplo de resposta de erro (veiculo nao existe no banco):
 ```json
 status: 404
 {
    "message": "Car not found" 
 }
 ```
-##### Exemplo de resposta de erro (Todos os campos devem estar preenchidos):
+##### Exemplo de resposta de erro (Id Mongo Invalido):
 ```json
 status: 422
 {
@@ -349,14 +349,14 @@ status: 200
       "engineCapacity": 1000
     }
 ```
-##### Exemplo de resposta de erro (Email ou senha incorretos):
+##### Exemplo de resposta de erro (veiculo nao existe no banco):
 ```json
 status: 404
 {
    "message": "Motorcycle not found" 
 }
 ```
-##### Exemplo de resposta de erro (Todos os campos devem estar preenchidos):
+##### Exemplo de resposta de erro (Id Mongo Invalido):
 ```json
 status: 422
 {
@@ -401,14 +401,14 @@ status: 200
 	  "engineCapacity": 600
    }
 ```
-##### Exemplo de resposta de erro (Email ou senha incorretos):
+##### Exemplo de resposta de erro (veiculo nao existe no banco):
 ```json
 status: 404
 {
    "message": "Motorcycle not found" 
 }
 ```
-##### Exemplo de resposta de erro (Todos os campos devem estar preenchidos):
+##### Exemplo de resposta de erro (Id Mongo Invalido):
 ```json
 status: 422
 {
@@ -441,14 +441,14 @@ status: 200
 	  "engineCapacity": 600
    }
 ```
-##### Exemplo de resposta de erro (Email ou senha incorretos):
+##### Exemplo de resposta de erro (veiculo nao existe no banco):
 ```json
 status: 404
 {
    "message": "Motorcycle not found" 
 }
 ```
-##### Exemplo de resposta de erro (Todos os campos devem estar preenchidos):
+##### Exemplo de resposta de erro (Id Mongo Invalido):
 ```json
 status: 422
 {
